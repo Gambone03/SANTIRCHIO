@@ -1,0 +1,181 @@
+function showScreen(id){
+
+    let screens = document.querySelectorAll(".screen");
+
+    screens.forEach(screen=>{
+        screen.classList.remove("active");
+    });
+
+    document.getElementById(id).classList.add("active");
+
+    let buttons=document.querySelectorAll("nav button");
+
+    buttons.forEach(btn=>{
+        btn.classList.remove("selected");
+    });
+
+    document.querySelector(`[onclick="showScreen('${id}')"]`).classList.add("selected");
+
+}
+
+document.querySelector("nav button").classList.add("selected");
+
+function caricaPartecipanti(){
+
+    const lista = document.getElementById("listaPartecipanti");
+
+    lista.innerHTML = "";
+
+    partecipanti.forEach(persona=>{
+
+        lista.innerHTML += `
+
+        <div class="player-card">
+
+            <img src="img/partecipanti/${persona.foto}">
+
+            <div>
+
+                <h3>${persona.nome}</h3>
+
+                <p>${persona.squadra}</p>
+
+            </div>
+
+        </div>
+
+        `;
+
+    });
+
+}
+
+caricaPartecipanti();
+
+const accordionButtons = document.querySelectorAll(".accordion-btn");
+
+accordionButtons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        const content = button.nextElementSibling;
+
+        if(content.style.display === "block"){
+
+            content.style.display = "none";
+
+        }else{
+
+            content.style.display = "block";
+
+        }
+
+    });
+
+});
+
+function caricaMVP(){
+
+    const lista = document.getElementById("listaMVP");
+
+    lista.innerHTML = "";
+
+    mvp.forEach(g => {
+
+        lista.innerHTML += `
+
+        <div class="mvp-card">
+
+            <h3>Giornata ${g.giornata}</h3>
+
+            <p>👑 ${g.vincitore}</p>
+
+            <span>${g.squadra}</span>
+
+        </div>
+
+        `;
+
+    });
+
+}
+
+caricaMVP();
+
+function caricaAlbo(){
+
+    const lista=document.getElementById("listaAlbo");
+
+    lista.innerHTML="";
+
+    albo.forEach(stagione=>{
+
+        lista.innerHTML+=`
+
+        <div class="mvp-card">
+
+            <h3>${stagione.stagione}</h3>
+
+            <p>🏆 ${stagione.campione}</p>
+
+        </div>
+
+        `;
+
+    });
+
+}
+
+caricaAlbo();
+
+function generaClassificaMVP(){
+
+    const classifica={};
+
+    mvp.forEach(g=>{
+
+        if(g.vincitore==="Da assegnare") return;
+
+        if(!classifica[g.vincitore]){
+
+            classifica[g.vincitore]=0;
+
+        }
+
+        classifica[g.vincitore]++;
+
+    });
+
+    const classificaOrdinata=Object.entries(classifica)
+
+    .sort((a,b)=>b[1]-a[1]);
+
+    const contenitore=document.getElementById("classificaMVP");
+
+    contenitore.innerHTML="";
+
+    classificaOrdinata.forEach((giocatore,index)=>{
+
+        contenitore.innerHTML+=`
+
+        <div class="player-card">
+
+            <h3>${index+1}°</h3>
+
+            <div style="margin-left:20px">
+
+                <h3>${giocatore[0]}</h3>
+
+                <p>${giocatore[1]} premi giornata</p>
+
+            </div>
+
+        </div>
+
+        `;
+
+    });
+
+}
+
+generaClassificaMVP();

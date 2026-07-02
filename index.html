@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SANTIRCHIO</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h3>SANTIRCHIO</h3>
+
+</header>
+
+<div id="home" class="screen active">
+
+<img src="img/logo.png" class="logo">
+
+<h1>SANTIRCHIO</h1>
+
+<p>Lega di Fantacalcio</p>
+
+<p>Fondata nel 2021</p>
+
+<div class="league-card">
+
+    <div class="league-item">
+        <span class="number">10</span>
+        <span class="label">Partecipanti</span>
+    </div>
+
+    <div class="league-item">
+        <span class="number">38</span>
+        <span class="label">Giornate</span>
+    </div>
+
+    <div class="league-item">
+        <span class="number">2026/27</span>
+        <span class="label">Stagione</span>
+    </div>
+
+</div>
+
+</div>
+
+<div id="regolamento" class="screen">
+
+<h2>📜 Regolamento</h2>
+
+<p>Il regolamento lo deve scrivere ancora Gabry.</p>
+
+<div class="accordion">
+
+    <button class="accordion-btn">
+        Rosa
+    </button>
+
+    <div class="accordion-content">
+
+        <p>• 500 crediti</p>
+        <p>• 3 Portieri</p>
+        <p>• 8 Difensori</p>
+        <p>• 8 Centrocampisti</p>
+        <p>• 6 Attaccanti</p>
+
+    </div>
+
+    <button class="accordion-btn">
+        Asta
+    </button>
+
+    <div class="accordion-content">
+
+        <p>cazzo guardi.</p>
+
+    </div>
+
+    <button class="accordion-btn">
+        Formazione
+    </button>
+
+    <div class="accordion-content">
+
+        <p>ancora che guardi.</p>
+
+    </div>
+
+    <button class="accordion-btn">
+        Bonus e Malus
+    </button>
+
+    <div class="accordion-content">
+
+        <p>ti ho detto che ci sto lavorando.</p>
+
+    </div>
+
+    <button class="accordion-btn">
+        Premi
+    </button>
+
+    <div class="accordion-content">
+
+        <p>inutile scriverli, hanno vinto già piero e santino.</p>
+
+    </div>
+
+</div>
+
+</div>
+
+<div id="partecipanti" class="screen">
+
+<h2>👥 Partecipanti</h2>
+
+<div id="listaPartecipanti"></div>
+
+</div>
+
+<div id="mvp" class="screen">
+
+<h2>🏆 Premi giornata</h2>
+
+<p>Ci stiamo lavorando caru.</p>
+
+<h3>🏆 Classifica MVP</h3>
+
+<div id="classificaMVP"></div>
+
+<hr>
+
+<h3>Tutte le giornate</h3>
+
+<div id="listaMVP"></div>
+
+</div>
+
+<div id="albo" class="screen">
+
+    <h2>🏅 Albo d'Oro</h2>
+
+    <div id="listaAlbo"></div>
+
+</div>
+
+<nav>
+
+<nav>
+
+<button onclick="showScreen('home')">
+
+<i class="fa-solid fa-house"></i>
+
+</button>
+
+<button onclick="showScreen('regolamento')">
+
+<i class="fa-solid fa-book"></i>
+
+</button>
+
+<button onclick="showScreen('partecipanti')">
+
+<i class="fa-solid fa-users"></i>
+
+</button>
+
+<button onclick="showScreen('mvp')">
+
+<i class="fa-solid fa-trophy"></i>
+
+</button>
+
+<button onclick="showScreen('albo')">
+
+<i class="fa-solid fa-medal"></i>
+
+</button>
+
+</nav>
+
+</nav>
+
+<script src="js/partecipanti.js"></script>
+<script src="js/mvp.js"></script>
+<script src="js/albo.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
