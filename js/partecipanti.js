@@ -19,7 +19,7 @@ const partecipanti = [
 },
 
 {
-    nome: "Alessanro",
+    nome: "Alessandro",
     squadra: "...",
     foto: "alessandro.jpg"
 },
