@@ -196,10 +196,11 @@ function apriScheda(index) {
         return;
     }
 
+    nome.textContent = p.nome;
     foto.src = "img/partecipanti/" + p.foto;
     document.getElementById("schedaImmagine").src =
     "img/partecipanti/" + p.immagine;
-    nome.textContent = p.nome;
+    
     squadra.textContent = p.squadra;
     descrizione.textContent = p.descrizione;
 
