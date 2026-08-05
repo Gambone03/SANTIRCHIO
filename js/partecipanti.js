@@ -3,61 +3,61 @@ const partecipanti = [
 {
     nome: "Gabriele",
     squadra: "...",
-    foto: "logo gabriele.jpg"
+    foto: "logo gabriele.jpeg"
 },
 
 {
     nome: "Erica",
     squadra: "...",
-    foto: "logo erica.jpg"
+    foto: "logo erica.jpeg"
 },
 
 {
     nome: "Santi",
     squadra: "...",
-    foto: "logo santi.jpg"
+    foto: "logo santi.jpeg"
 },
 
 {
     nome: "Alessandro",
     squadra: "...",
-    foto: "logo alessandro.jpg"
+    foto: "logo alessandro.jpeg"
 },
 
 {
     nome: "Santino",
     squadra: "...",
-    foto: "logo santino.jpg"
+    foto: "logo santino.jpeg"
 },
 
 {
     nome: "Piero",
     squadra: "...",
-    foto: "logo piero.jpg"
+    foto: "logo piero.jpeg"
 },
 
 {
     nome: "Antonio",
     squadra: "TOTERAY HOTSPUR",
-    foto: "logo antonio.jpg"
+    foto: "logo antonio.jpeg"
 },
 
 {
     nome: "Christian",
     squadra: "...",
-    foto: "logo christian.jpg"
+    foto: "logo christian.jpeg"
 },
 
 {
     nome: "Mario",
     squadra: "...",
-    foto: "logo mario.jpg"
+    foto: "logo mario.jpeg"
 },
 
 {
     nome: "Emanuela",
     squadra: "...",
-    foto: "logo emanuela.jpg"
+    foto: "logo emanuela.jpeg"
 }
 
 ];
