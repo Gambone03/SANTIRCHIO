@@ -28,9 +28,9 @@ opacity:0;
 
 animation:fade .30s;
 
-padding:100px 25px 100px;
+padding:100px 25px 140px;
 
-height:100vh;
+min-height:100vh;
 
 overflow-y:auto;
 
