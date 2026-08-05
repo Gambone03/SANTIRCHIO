@@ -179,3 +179,44 @@ function generaClassificaMVP(){
 }
 
 generaClassificaMVP();
+
+function apriScheda(index) {
+
+    const p = partecipanti[index];
+
+    const foto = document.getElementById("schedaFoto");
+    const nome = document.getElementById("schedaNome");
+    const squadra = document.getElementById("schedaSquadra");
+    const descrizione = document.getElementById("schedaDescrizione");
+    const lista = document.getElementById("schedaRosa");
+    const scheda = document.getElementById("schedaPartecipante");
+
+    if (!foto || !nome || !squadra || !descrizione || !lista || !scheda) {
+        console.error("Errore: elementi della scheda non trovati.");
+        return;
+    }
+
+    foto.src = "img/partecipanti/" + p.foto;
+    nome.textContent = p.nome;
+    squadra.textContent = p.squadra;
+    descrizione.textContent = p.descrizione;
+
+    lista.innerHTML = "";
+
+    p.rosa.forEach(giocatore => {
+        lista.innerHTML += `<li>${giocatore}</li>`;
+    });
+
+    scheda.style.display = "flex";
+
+}
+
+function chiudiScheda() {
+
+    const scheda = document.getElementById("schedaPartecipante");
+
+    if (scheda) {
+        scheda.style.display = "none";
+    }
+
+}
