@@ -179,32 +179,3 @@ function generaClassificaMVP(){
 }
 
 generaClassificaMVP();
-
-function apriScheda(index){
-
-    const p = partecipanti[index];
-
-    document.getElementById("schedaFoto").src = "img/partecipanti/" + p.foto;
-    document.getElementById("schedaNome").textContent = p.nome;
-    document.getElementById("schedaSquadra").textContent = p.squadra;
-    document.getElementById("schedaDescrizione").textContent = p.descrizione;
-
-    const lista = document.getElementById("schedaRosa");
-
-    lista.innerHTML = "";
-
-    p.rosa.forEach(giocatore => {
-
-        lista.innerHTML += `<li>${giocatore}</li>`;
-
-    });
-
-    document.getElementById("schedaPartecipante").style.display = "flex";
-
-}
-
-function chiudiScheda(){
-
-    document.getElementById("schedaPartecipante").style.display = "none";
-
-}
