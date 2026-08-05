@@ -182,6 +182,8 @@ generaClassificaMVP();
 
 function apriScheda(index) {
 
+    alert("Funziona! Hai cliccato " + index);
+    
     const p = partecipanti[index];
 
     const foto = document.getElementById("schedaFoto");
