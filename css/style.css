@@ -412,7 +412,7 @@ color:#94a3b8;
     width:90%;
     max-width:420px;
     border-radius:20px;
-    padding:25px;
+    padding:45px 25px 25px 25px;
     text-align:center;
     color:white;
     position:relative;
@@ -434,7 +434,7 @@ color:#94a3b8;
 
 .chiudi{
     position:absolute;
-    top:15px;
+    top:20px;
     right:15px;
     border:none;
     background:none;
