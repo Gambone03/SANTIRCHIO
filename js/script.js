@@ -181,8 +181,6 @@ function generaClassificaMVP(){
 generaClassificaMVP();
 
 function apriScheda(index) {
-
-    alert("Funziona! Hai cliccato " + index);
     
     const p = partecipanti[index];
 
