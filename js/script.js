@@ -202,7 +202,7 @@ function apriScheda(index) {
     "img/partecipanti/" + p.immagine;
     
     squadra.textContent = p.squadra;
-    descrizione.textContent = p.descrizione;
+    document.getElementById("schedaDescrizione").innerHTML = p.descrizione;
 
     lista.innerHTML = "";
 
