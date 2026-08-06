@@ -252,6 +252,11 @@ transition:.25s;
 
 }
 
+.player-card div{
+    text-align:left;
+    flex:1;
+}
+
 .player-card:hover{
 
 transform:translateY(-4px);
