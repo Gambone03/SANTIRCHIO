@@ -3,7 +3,7 @@ const partecipanti = [
 {
     nome: "Gabriele",
     squadra: "...",
-    foto: "logo gabriele.jpeg",
+    foto: "logo gabriele.png",
     immagine: "gabriele.jpeg",
     descrizione: ".",
     rosa: [
