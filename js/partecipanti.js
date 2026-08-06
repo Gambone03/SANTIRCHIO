@@ -24,10 +24,10 @@ const partecipanti = [
 
 {
     nome: "Santi",
-    squadra: "DREAM TEAM",
-    foto: "logo santi.png",
-    immagine: "santi.png",
-    descrizione: "Per chi mastica l'inglese ha già capito. Non sono solo sogni ma solide realtà",
+    squadra: "REAL BETONIERA",
+    foto: "logo santi.jpeg",
+    immagine: "santi.jpeg",
+    descrizione: "",
     rosa: [
         "portiere"
     ]
