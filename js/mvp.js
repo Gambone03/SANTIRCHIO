@@ -2,25 +2,25 @@ const mvp = [
 
 {
     giornata: 1,
-    vincitore: "gabriele",
+    vincitore: "",
     squadra: "-"
 },
 
 {
     giornata: 2,
-    vincitore: "emanuela",
+    vincitore: "",
     squadra: "-"
 },
 
 {
     giornata: 3,
-    vincitore: "emanuela",
+    vincitore: "",
     squadra: "-"
 },
 
 {
     giornata: 4,
-    vincitore: "piero",
+    vincitore: "",
     squadra: "-"
 }
 
