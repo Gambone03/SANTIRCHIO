@@ -5,7 +5,7 @@ const partecipanti = [
     squadra: "...",
     foto: "logo gabriele.png",
     immagine: "gabriele.jpeg",
-    descrizione: ".",
+    descrizione: "Perché, si sa, il pianto preventivo è importantissimo",
     rosa: [
         "portiere"
     ]
