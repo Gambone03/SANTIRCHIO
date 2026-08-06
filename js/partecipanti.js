@@ -70,7 +70,7 @@ const partecipanti = [
     nome: "Antonio",
     squadra: "TOTERAY HOTSPUR",
     foto: "logo antonio.jpeg",
-    immagine: "antonio.jpeg",
+    immagine: "antonio.png",
     descrizione: "Una storia con radici nel passato e con cassetto pieno zeppo di sogni.<br><strong>Sognare è sempre stato un nostro diritto<strong>",
     rosa: [
         "portiere"
