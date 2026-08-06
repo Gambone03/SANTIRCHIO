@@ -25,8 +25,8 @@ const partecipanti = [
 {
     nome: "Santi",
     squadra: "...",
-    foto: "logo santi.jpeg",
-    immagine: "santi.jpeg",
+    foto: "logo santi.png",
+    immagine: "santi.png",
     descrizione: ".",
     rosa: [
         "portiere"
