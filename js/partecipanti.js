@@ -5,7 +5,7 @@ const partecipanti = [
     squadra: "PERDER BREMA",
     foto: "logo gabriele.png",
     immagine: "gabriele.png",
-    descrizione: "Perché, si sa, il <strong>pianto preventivo<strong> è importantissimo",
+    descrizione: "La sconfitta sta nel cuore di chi lotta, ci dissi chiddu",
     rosa: [
         "portiere"
     ]
@@ -27,7 +27,7 @@ const partecipanti = [
     squadra: "REAL BETONIERA",
     foto: "logo santi.jpeg",
     immagine: "santi.jpeg",
-    descrizione: "",
+    descrizione: "Dateci del calcestruzzo e costruiremo il nostro futuro, senza ci proviamo lo stesso",
     rosa: [
         "portiere"
     ]
@@ -104,7 +104,7 @@ const partecipanti = [
     squadra: "AC QUOTA ROSA",
     foto: "logo emanuela.png",
     immagine: "emanuela.png",
-    descrizione: "Non servono altre parole",
+    descrizione: "Il calcio non è uno sport per femminucce ma per <strong>donne di un certo calibro<strong>",
     rosa: [
         "portiere"
     ]
