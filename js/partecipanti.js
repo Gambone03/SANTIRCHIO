@@ -48,7 +48,7 @@ const partecipanti = [
     nome: "Santino",
     squadra: "YOUNG GIRLS",
     foto: "logo santino.jpeg",
-    immagine: "santino.jpeg",
+    immagine: "santino.png",
     descrizione: "Vivaio, giovani promesse, talenti da scoprire...in poche parole <strong>CBCR<strong>",
     rosa: [
         "portiere"
