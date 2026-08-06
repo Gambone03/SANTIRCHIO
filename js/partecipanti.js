@@ -27,7 +27,7 @@ const partecipanti = [
     squadra: "DREAM TEAM",
     foto: "logo santi.png",
     immagine: "santi.png",
-    descrizione: ".",
+    descrizione: "Per chi mastica l'inglese ha già capito. Non sono solo sogni ma solide realtà",
     rosa: [
         "portiere"
     ]
@@ -49,7 +49,7 @@ const partecipanti = [
     squadra: "YOUNG GIRLS",
     foto: "logo santino.jpeg",
     immagine: "santino.jpeg",
-    descrizione: ".",
+    descrizione: "Vivaio, giovani promesse, talenti da scoprire...in poche parole <strong>CBCR<strong>",
     rosa: [
         "portiere"
     ]
