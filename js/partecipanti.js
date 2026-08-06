@@ -2,9 +2,9 @@ const partecipanti = [
 
 {
     nome: "Gabriele",
-    squadra: "...",
+    squadra: "PERDER BREMA",
     foto: "logo gabriele.png",
-    immagine: "gabriele.jpeg",
+    immagine: "gabriele.png",
     descrizione: "Perché, si sa, il pianto preventivo è importantissimo",
     rosa: [
         "portiere"
