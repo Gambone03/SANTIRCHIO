@@ -35,7 +35,7 @@ const partecipanti = [
 
 {
     nome: "Alessandro",
-    squadra: "...",
+    squadra: "REAL CALARU I FRANE",
     foto: "logo alessandro.jpeg",
     immagine: "alessandro.png",
     descrizione: "Allenamenti personalizzati: <strong>Pala, sciamarru e corsetta alle 4 del mattino<strong>",
