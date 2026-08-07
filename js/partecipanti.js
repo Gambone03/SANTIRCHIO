@@ -37,7 +37,7 @@ const partecipanti = [
     nome: "Alessandro",
     squadra: "...",
     foto: "logo alessandro.jpeg",
-    immagine: "alessandro.jpeg",
+    immagine: "alessandro.png",
     descrizione: ".",
     rosa: [
         "portiere"
