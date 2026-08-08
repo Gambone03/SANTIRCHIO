@@ -2,10 +2,10 @@ const partecipanti = [
 
 {
     nome: "Gabriele",
-    squadra: "PERDER BREMA",
+    squadra: "WATTFORD",
     foto: "logo gabriele.png",
     immagine: "gabriele.png",
-    descrizione: "La sconfitta sta nel cuore di chi lotta, ci dissi chiddu",
+    descrizione: "Cosa ti aspettavi da un ingegnere elettrico? Sperando che <strong>zero<strong> siano solo le emissioni e non i punti in classifica",
     rosa: [
         "portiere"
     ]
