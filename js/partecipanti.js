@@ -57,10 +57,10 @@ const partecipanti = [
 
 {
     nome: "Piero",
-    squadra: "...",
+    squadra: "LIVERPUZZ",
     foto: "logo piero.jpeg",
-    immagine: "piero.jpeg",
-    descrizione: ".",
+    immagine: "piero.png",
+    descrizione: "You'll never PUZZ alone, vi conviene starci lontani",
     rosa: [
         "portiere"
     ]
