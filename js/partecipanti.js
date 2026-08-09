@@ -79,10 +79,10 @@ const partecipanti = [
 
 {
     nome: "Christian",
-    squadra: "...",
+    squadra: "GIOCO D'HAZARD",
     foto: "logo christian.jpeg",
-    immagine: "christian.jpeg",
-    descrizione: ".",
+    immagine: "christian.png",
+    descrizione: "Chi non risica non rosica e la paura è un sentimento che appartiene ai deboli, gls",
     rosa: [
         "portiere"
     ]
