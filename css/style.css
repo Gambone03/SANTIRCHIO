@@ -502,7 +502,7 @@ color:#94a3b8;
 
     background: #1b2535;
 
-    padding: 30px;
+    padding: 30px 10px 10px;
 
     border-radius: 25px;
 
@@ -526,7 +526,7 @@ color:#94a3b8;
 }
 
 
-.coppa-card h3 {
+.coppa-card h2 {
 
     width: 100%;
     height: 70px;
@@ -547,11 +547,11 @@ color:#94a3b8;
 
 .coppa-card img {
 
-    width:240px;
+    width:320px;
 
-    height:240px;
+    height:320px;
 
-    object-fit:contain;
+    object-fit:cover;
 
     display:block;
 
