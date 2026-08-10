@@ -547,17 +547,15 @@ color:#94a3b8;
 
 .coppa-card img {
 
-    width:320px;
+    width:330px;
 
     height: auto;
 
-    max-height:360px;
+    max-height:390px;
 
     object-fit:contain;
 
-    display:block;
-
-    border-radius: 25px;
+    border-radius: 30px;
 
 }
 
