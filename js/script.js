@@ -187,6 +187,7 @@ function apriScheda(index) {
     const foto = document.getElementById("schedaFoto");
     const nome = document.getElementById("schedaNome");
     const squadra = document.getElementById("schedaSquadra");
+    const nomeExtra = document.getElementById("schedaNomeExtra");
     const descrizione = document.getElementById("schedaDescrizione");
     const lista = document.getElementById("schedaRosa");
     const scheda = document.getElementById("schedaPartecipante");
@@ -198,6 +199,7 @@ function apriScheda(index) {
 
     nome.textContent = p.nome;
     foto.src = "img/partecipanti/" + p.foto;
+    nomeExtra.textContent = p.nomeExtra;
     document.getElementById("schedaImmagine").src =
     "img/partecipanti/" + p.immagine;
     

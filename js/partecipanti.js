@@ -4,6 +4,7 @@ const partecipanti = [
     nome: "Gabriele",
     squadra: "WATTFORD",
     foto: "logo gabriele.png",
+    nomeExtra: "IL MATCH ANALIST",
     immagine: "gabriele.png",
     descrizione: "Cosa ti aspettavi da un ingegnere elettrico? Sperando che <strong>zero<strong> siano solo le emissioni e non i punti in classifica",
     rosa: [
