@@ -544,26 +544,20 @@ color:#94a3b8;
 
 }
 
+.coppa-card img {
 
-.coppa-card-image {
-    width: 320px;
-    height: 360px;
+width:320px;
 
-    border-radius: 160px;
-    overflow: hidden;
 
-    flex-shrink: 0;
+
+height:360px;
+
+object-fit:contain;
+
+border-radius: 50px;
+
+
 }
-
-/* IMMAGINE */
-.coppa-card-image img {
-    width: 100%;
-    height: 100%;
-
-    object-fit: contain;
-    display: block;
-}
-
 
 .coppa-card p {
 
