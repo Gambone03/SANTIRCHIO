@@ -161,7 +161,7 @@ function apriCoppa(coppa) {
 
     if (coppa === "coppa1") {
 
-        nome.textContent = "Coppa 1";
+        nome.textContent = "COPPA SANTIRCHIO";
 
         logo.src = "img/coppe/logo-coppa1.png";
 
@@ -174,7 +174,7 @@ function apriCoppa(coppa) {
 
     if (coppa === "coppa2") {
 
-        nome.textContent = "Coppa 2";
+        nome.textContent = "SUPERCOPPA SANTIRCHIO";
 
         logo.src = "img/coppe/logo-coppa2.png";
 
