@@ -74,34 +74,6 @@ accordionButtons.forEach(button => {
 
 });
 
-function caricaMVP(){
-
-    const lista = document.getElementById("listaMVP");
-
-    lista.innerHTML = "";
-
-    mvp.forEach(g => {
-
-        lista.innerHTML += `
-
-        <div class="mvp-card">
-
-            <h3>Giornata ${g.giornata}</h3>
-
-            <p>👑 ${g.vincitore}</p>
-
-            <span>${g.squadra}</span>
-
-        </div>
-
-        `;
-
-    });
-
-}
-
-caricaMVP();
-
 function caricaAlbo(){
 
     const lista=document.getElementById("listaAlbo");
@@ -127,58 +99,6 @@ function caricaAlbo(){
 }
 
 caricaAlbo();
-
-function generaClassificaMVP(){
-
-    const classifica={};
-
-    mvp.forEach(g=>{
-
-        if(g.vincitore==="Da assegnare") return;
-
-        if(!classifica[g.vincitore]){
-
-            classifica[g.vincitore]=0;
-
-        }
-
-        classifica[g.vincitore]++;
-
-    });
-
-    const classificaOrdinata=Object.entries(classifica)
-
-    .sort((a,b)=>b[1]-a[1]);
-
-    const contenitore=document.getElementById("classificaMVP");
-
-    contenitore.innerHTML="";
-
-    classificaOrdinata.forEach((giocatore,index)=>{
-
-        contenitore.innerHTML+=`
-
-        <div class="player-card">
-
-            <h3>${index+1}°</h3>
-
-            <div style="margin-left:20px">
-
-                <h3>${giocatore[0]}</h3>
-
-                <p>${giocatore[1]} premi giornata</p>
-
-            </div>
-
-        </div>
-
-        `;
-
-    });
-
-}
-
-generaClassificaMVP();
 
 function apriScheda(index) {
     
@@ -223,5 +143,55 @@ function chiudiScheda() {
     if (scheda) {
         scheda.style.display = "none";
     }
+
+}
+
+function apriCoppa(coppa) {
+
+    const scheda = document.getElementById("schedaCoppa");
+
+    const nome = document.getElementById("coppaNome");
+
+    const logo = document.getElementById("coppaLogo");
+
+    const gironeA = document.getElementById("gironeA");
+
+    const gironeB = document.getElementById("gironeB");
+
+
+    if (coppa === "coppa1") {
+
+        nome.textContent = "Coppa 1";
+
+        logo.src = "img/coppe/logo-coppa1.png";
+
+        gironeA.src = "img/coppe/coppa1-girone-a.png";
+
+        gironeB.src = "img/coppe/coppa1-girone-b.png";
+
+    }
+
+
+    if (coppa === "coppa2") {
+
+        nome.textContent = "Coppa 2";
+
+        logo.src = "img/coppe/logo-coppa2.png";
+
+        gironeA.src = "img/coppe/coppa2-girone-a.png";
+
+        gironeB.src = "img/coppe/coppa2-girone-b.png";
+
+    }
+
+
+    scheda.style.display = "flex";
+
+}
+
+
+function chiudiCoppa() {
+
+    document.getElementById("schedaCoppa").style.display = "none";
 
 }

@@ -475,3 +475,127 @@ color:#94a3b8;
 #schedaNomeExtra {
     margin: 15px 0;
 }
+
+/* =========================
+   COPPE
+========================= */
+
+.coppe-container {
+
+    display:flex;
+
+    gap:20px;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    margin-top:35px;
+
+}
+
+
+.coppa-card {
+
+    width:250px;
+
+    background:#1b2535;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.30);
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+
+.coppa-card:hover {
+
+    transform:translateY(-5px);
+
+}
+
+
+.coppa-card h3 {
+
+    font-size:22px;
+
+    margin-bottom:20px;
+
+}
+
+
+.coppa-card img {
+
+    width:180px;
+
+    height:180px;
+
+    object-fit:contain;
+
+    display:block;
+
+    margin:0 auto 15px auto;
+
+}
+
+
+.coppa-card p {
+
+    margin:0;
+
+    color:#94a3b8;
+
+}
+
+
+/* LOGO DENTRO LA SCHEDA */
+
+.coppa-logo {
+
+    width:180px;
+
+    height:180px;
+
+    object-fit:contain;
+
+    display:block;
+
+    margin:20px auto 30px auto;
+
+}
+
+
+/* IMMAGINI DEI GIRONI */
+
+.immagine-girone {
+
+    width:100%;
+
+    max-width:700px;
+
+    height:auto;
+
+    display:block;
+
+    margin:15px auto 30px auto;
+
+    border-radius:15px;
+
+}
+
+
+/* TITOLI DEI GIRONI */
+
+.scheda-content > h3 {
+
+    margin-top:25px;
+
+    margin-bottom:15px;
+
+}

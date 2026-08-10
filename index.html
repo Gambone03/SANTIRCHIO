@@ -187,21 +187,68 @@
 
 </div>
 
-<div id="mvp" class="screen">
+<div id="coppe" class="screen">
 
-<h2>🏆 Premi giornata</h2>
+    <h2>🏆 Le Coppe</h2>
 
-<p>Ecco la classifica di chi ha vinto più premi giornata</p>
+    <p>Seleziona una coppa per vedere gironi e risultati.</p>
 
-<h3>🏆 Classifica MVP</h3>
+    <div class="coppe-container">
 
-<div id="classificaMVP"></div>
+        <div class="coppa-card" onclick="apriCoppa('coppa1')">
 
-<hr>
+            <h3>Coppa 1</h3>
 
-<h3>Tutte le giornate</h3>
+            <img src="img/coppe/logo-coppa1.png">
 
-<div id="listaMVP"></div>
+            <p>Scopri la competizione</p>
+
+        </div>
+
+
+        <div class="coppa-card" onclick="apriCoppa('coppa2')">
+
+            <h3>Coppa 2</h3>
+
+            <img src="img/coppe/logo-coppa2.png">
+
+            <p>Scopri la competizione</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- SCHEDA COPPA -->
+
+    <div id="schedaCoppa" class="scheda">
+
+        <div class="scheda-content">
+
+            <button class="chiudi" onclick="chiudiCoppa()">
+                ✖
+            </button>
+
+            <h2 id="coppaNome"></h2>
+
+            <img id="coppaLogo" class="coppa-logo">
+
+            <h3>Gironi</h3>
+
+
+            <h3>Girone A</h3>
+
+            <img id="gironeA" class="immagine-girone">
+
+
+            <h3>Girone B</h3>
+
+            <img id="gironeB" class="immagine-girone">
+
+
+        </div>
+
+    </div>
 
 </div>
 
@@ -233,7 +280,7 @@
 
 </button>
 
-<button onclick="showScreen('mvp')">
+<button onclick="showScreen('coppe')">
 
 <i class="fa-solid fa-trophy"></i>
 
