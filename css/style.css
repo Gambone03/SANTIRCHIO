@@ -497,19 +497,24 @@ color:#94a3b8;
 
 .coppa-card {
 
-    width:280px;
+ width: 350px;
+    min-height: 500px;
 
-    background:#1b2535;
+    background: #1b2535;
 
-    padding:30px;
+    padding: 30px;
 
-    border-radius:20px;
+    border-radius: 25px;
 
-    box-shadow:0 8px 18px rgba(0,0,0,.30);
+    box-shadow: 0 8px 18px rgba(0,0,0,.30);
 
-    cursor:pointer;
+    cursor: pointer;
 
-    transition:.25s;
+    transition: .25s;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -523,24 +528,34 @@ color:#94a3b8;
 
 .coppa-card h3 {
 
-    font-size:22px;
+    width: 100%;
+    height: 70px;
 
-    margin-bottom:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    font-size: 28px;
+    line-height: 1.2;
+
+    margin: 0 0 20px 0;
 
 }
 
 
 .coppa-card img {
 
-    width:250px;
+    width:240px;
 
-    height:250px;
+    height:240px;
 
     object-fit:contain;
 
     display:block;
 
-    margin:0 auto 15px auto;
+    margin:0 auto;
 
 }
 
