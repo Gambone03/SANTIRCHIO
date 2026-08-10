@@ -497,11 +497,11 @@ color:#94a3b8;
 
 .coppa-card {
 
-    width:250px;
+    width:280px;
 
     background:#1b2535;
 
-    padding:25px;
+    padding:30px;
 
     border-radius:20px;
 
@@ -532,9 +532,9 @@ color:#94a3b8;
 
 .coppa-card img {
 
-    width:180px;
+    width:210px;
 
-    height:180px;
+    height:210px;
 
     object-fit:contain;
 
