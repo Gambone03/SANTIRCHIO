@@ -463,3 +463,11 @@ color:#94a3b8;
     color:#b8c1d1;
     margin-bottom:20px;
 }
+
+#regolamento .accordion{
+    text-align:left;
+}
+
+#regolamento .accordion-content{
+    text-align:left;
+}
