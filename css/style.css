@@ -549,9 +549,11 @@ color:#94a3b8;
 
     width:320px;
 
-    height:320px;
+    height: auto;
 
-    object-fit:cover;
+    max-height:360px;
+
+    object-fit:contain;
 
     display:block;
 
