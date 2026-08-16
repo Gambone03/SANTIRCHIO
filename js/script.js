@@ -154,9 +154,11 @@ function apriCoppa(coppa) {
 
     const logo = document.getElementById("coppaLogo");
 
-    const gironeA = document.getElementById("gironeA");
+    const titoloA = document.getElementById("titoloGironeA");
+    const titoloB = document.getElementById("titoloGironeB");
 
-    const gironeB = document.getElementById("gironeB");
+    const immagineA = document.getElementById("gironeA");
+    const immagineB = document.getElementById("gironeB");
 
 
     if (coppa === "coppa1") {
@@ -165,9 +167,11 @@ function apriCoppa(coppa) {
 
         logo.src = "img/coppe/logo-coppa1.png";
 
-        gironeA.src = "img/coppe/coppa1-girone-a.png";
+        titoloA.textContent = "GIRONE A";
+        titoloB.textContent = "GIRONE B";
 
-        gironeB.src = "img/coppe/coppa1-girone-b.png";
+        immagineA.src = "img/coppe/coppa1-girone-a.png";
+        immagineB.src = "img/coppe/coppa1-girone-b.png";
 
     }
 
@@ -178,9 +182,11 @@ function apriCoppa(coppa) {
 
         logo.src = "img/coppe/logo-coppa2.png";
 
-        gironeA.src = "img/coppe/coppa2-girone-a.png";
+        titoloA.textContent = "FASE INIZIALE";
+        titoloB.textContent = "FASE FINALE";
 
-        gironeB.src = "img/coppe/coppa2-girone-b.png";
+        immagineA.src = "img/coppe/coppa2-fase-iniziale.png";
+        immagineB.src = "img/coppe/coppa2-fase-finale.png";
 
     }
 
