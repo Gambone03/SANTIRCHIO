@@ -621,7 +621,7 @@ border-radius: 30px;
 
     align-items: flex-start;
 
-    gap: 20px;
+    gap: 15px;
 
     width: 100%;
 
@@ -631,16 +631,23 @@ border-radius: 30px;
 
 @media (max-width: 600px) {
 
+     #schedaCoppa .scheda-content {
+        width: 96%;
+        padding: 20px 10px;
+    }
+
     .coppe-immagini {
-
-        gap: 10px;
-
+        gap: 8px;
     }
 
     .immagine-girone {
-
-        width: 48%;
-
+        width: 49%;
+        border-radius: 12px;
     }
 
+}
+
+#schedaCoppa .scheda-content {
+    width: 95%;
+    max-width: 900px;
 }
