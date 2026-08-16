@@ -2,7 +2,7 @@ const albo = [
 
 {
     stagione:"2025/26",
-    campione:"PIERO"
+    campione:"PIERO E MARIO"
 },
 
 {
