@@ -548,12 +548,13 @@ color:#94a3b8;
 
 width:320px;
 
-height:360px;
+height:auto;
+
+display: block;
 
 object-fit:contain;
 
-border-radius: 50px;
-
+border-radius: 30px;
 
 }
 
@@ -572,7 +573,7 @@ border-radius: 50px;
 
     width:180px;
 
-    height:180px;
+    height:auto;
 
     object-fit:contain;
 
@@ -580,7 +581,7 @@ border-radius: 50px;
 
     margin:20px auto 30px auto;
 
-    border-radius: 50px;
+    border-radius: 30px;
 
 }
 
