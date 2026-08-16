@@ -154,9 +154,6 @@ function apriCoppa(coppa) {
 
     const logo = document.getElementById("coppaLogo");
 
-    const titoloA = document.getElementById("titoloGironeA");
-    const titoloB = document.getElementById("titoloGironeB");
-
     const immagineA = document.getElementById("gironeA");
     const immagineB = document.getElementById("gironeB");
 
@@ -166,9 +163,6 @@ function apriCoppa(coppa) {
         nome.textContent = "COPPA SANTIRCHIO";
 
         logo.src = "img/coppe/logo-coppa1.png";
-
-        titoloA.textContent = "GIRONE A";
-        titoloB.textContent = "GIRONE B";
 
         immagineA.src = "img/coppe/coppa1-girone-a.png";
         immagineB.src = "img/coppe/coppa1-girone-b.png";
@@ -181,9 +175,6 @@ function apriCoppa(coppa) {
         nome.textContent = "SUPERCOPPA SANTIRCHIO";
 
         logo.src = "img/coppe/logo-coppa2.png";
-
-        titoloA.textContent = "FASE INIZIALE";
-        titoloB.textContent = "FASE FINALE";
 
         immagineA.src = "img/coppe/coppa2-fase-iniziale.png";
         immagineB.src = "img/coppe/coppa2-fase-finale.png";

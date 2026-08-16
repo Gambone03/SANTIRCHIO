@@ -590,15 +590,13 @@ border-radius: 30px;
 
 .immagine-girone {
 
-    width:100%;
-
-    max-width:700px;
+    width:48%;
 
     height:auto;
 
     display:block;
 
-    margin:15px auto 30px auto;
+    margin: 0;
 
     border-radius:15px;
 
@@ -612,5 +610,37 @@ border-radius: 30px;
     margin-top:25px;
 
     margin-bottom:15px;
+
+}
+
+.coppe-immagini {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+    gap: 20px;
+
+    width: 100%;
+
+    margin-top: 25px;
+
+}
+
+@media (max-width: 600px) {
+
+    .coppe-immagini {
+
+        gap: 10px;
+
+    }
+
+    .immagine-girone {
+
+        width: 48%;
+
+    }
 
 }
