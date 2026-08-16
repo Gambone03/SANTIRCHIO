@@ -12,7 +12,7 @@ const albo = [
 
 {
     stagione:"2023/24",
-    campione:"Da inserire"
+    campione:"SANTINO"
 },
 
 {
