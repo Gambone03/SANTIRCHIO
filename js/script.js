@@ -184,7 +184,7 @@ function apriCoppa(coppa) {
         supercoppaImmagine.src = "img/coppe/supercoppa.png";
         immagineA.style.display = "none";
         immagineB.style.display = "none";
-
+        supercoppaImmagine.style.display = "block";
         tabellone.style.display = "none";
 
     }
