@@ -98,10 +98,10 @@ const partecipanti = [
 
 {
     nome: "Mario",
-    squadra: "-",
-    foto: "logo mario.jpeg",
+    squadra: "AC SCASSAPAGLIARA",
+    foto: "logo mario.png",
     nomeExtra: "-",
-    immagine: "mario.jpeg",
+    immagine: "mario.png",
     descrizione: "-",
     rosa: [
         "portiere"
