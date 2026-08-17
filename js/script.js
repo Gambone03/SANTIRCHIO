@@ -164,6 +164,8 @@ function apriCoppa(coppa) {
         immagineA.src = "img/coppe/coppa1-girone-a.png";
         immagineB.src = "img/coppe/coppa1-girone-b.png";
         tabellone.src = "img/coppe/tabellone.png";
+
+        tabellone.hidden = false;
     
     }
 
@@ -177,7 +179,7 @@ function apriCoppa(coppa) {
         immagineA.src = "img/coppe/coppa2-fase-iniziale.png";
         immagineB.src = "img/coppe/coppa2-fase-finale.png";
 
-        tabellone.style.display = "none";
+        tabellone.hidden = true;
 
     }
 
