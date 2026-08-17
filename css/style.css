@@ -590,7 +590,7 @@ border-radius: 30px;
 
 .immagine-girone {
 
-    width:48%;
+    width: calc(50% - 8px);
 
     height:auto;
 
@@ -602,6 +602,9 @@ border-radius: 30px;
 
 }
 
+#faseFinale {
+    width: 100%;
+}
 
 /* TITOLI DEI GIRONI */
 
@@ -616,6 +619,8 @@ border-radius: 30px;
 .coppe-immagini {
 
     display: flex;
+
+    flex-wrap: wrap;
 
     justify-content: center;
 

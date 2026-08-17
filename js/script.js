@@ -152,6 +152,7 @@ function apriCoppa(coppa) {
 
     const immagineA = document.getElementById("gironeA");
     const immagineB = document.getElementById("gironeB");
+    const faseFinale = document.getElementById("faseFinale");
 
 
     if (coppa === "coppa1") {
@@ -162,7 +163,10 @@ function apriCoppa(coppa) {
 
         immagineA.src = "img/coppe/coppa1-girone-a.png";
         immagineB.src = "img/coppe/coppa1-girone-b.png";
+        faseFinale.src = "img/coppe/coppa1-fase-finale.png";
 
+        faseFinale.style.display = "block";
+    
     }
 
 
