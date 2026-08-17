@@ -177,6 +177,8 @@ function apriCoppa(coppa) {
         immagineA.src = "img/coppe/coppa2-fase-iniziale.png";
         immagineB.src = "img/coppe/coppa2-fase-finale.png";
 
+        tabellone.style.display = "none";
+
     }
 
 
