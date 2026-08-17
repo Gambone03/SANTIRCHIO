@@ -163,7 +163,7 @@ function apriCoppa(coppa) {
 
         immagineA.src = "img/coppe/coppa1-girone-a.png";
         immagineB.src = "img/coppe/coppa1-girone-b.png";
-        faseFinale.src = "img/coppe/coppa1-girone-a.png";
+        faseFinale.src = "img/coppe/tabellone.png";
     
     }
 
