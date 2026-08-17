@@ -153,6 +153,7 @@ function apriCoppa(coppa) {
     const immagineA = document.getElementById("gironeA");
     const immagineB = document.getElementById("gironeB");
     const tabellone = document.getElementById("tabellone");
+    const supercoppaImmagine = document.getElementById("supercoppaImmagine");
 
 
     if (coppa === "coppa1") {
@@ -165,7 +166,11 @@ function apriCoppa(coppa) {
         immagineB.src = "img/coppe/coppa1-girone-b.png";
         tabellone.src = "img/coppe/tabellone.png";
 
+        immagineA.style.display = "block";
+        immagineB.style.display = "block";
         tabellone.style.display = "block";
+
+        supercoppaImmagine.style.display = "none";
     
     }
 
@@ -176,8 +181,9 @@ function apriCoppa(coppa) {
 
         logo.src = "img/coppe/logo-coppa2.png";
 
-        immagineA.src = "img/coppe/coppa2-fase-iniziale.png";
-        immagineB.src = "img/coppe/coppa2-fase-finale.png";
+        supercoppaImmagine.src = "img/coppe/supercoppa.png";
+        immagineA.style.display = "none";
+        immagineB.style.display = "none";
 
         tabellone.style.display = "none";
 

@@ -656,3 +656,12 @@ border-radius: 30px;
     width: 95%;
     max-width: 900px;
 }
+
+.immagine-supercoppa {
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
