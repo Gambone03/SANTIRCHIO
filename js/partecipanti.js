@@ -6,10 +6,7 @@ const partecipanti = [
     foto: "logo gabriele.png",
     nomeExtra: "IL MATCH ANALIST",
     immagine: "gabriele.png",
-    descrizione: "Cosa ti aspettavi da un ingegnere elettrico? Sperando che <strong>zero<strong> siano solo le emissioni e non i punti in classifica",
-    rosa: [
-        "portiere"
-    ]
+    descrizione: "Cosa ti aspettavi da un ingegnere elettrico? Sperando che <strong>zero<strong> siano solo le emissioni e non i punti in classifica.",
 },
 
 {
@@ -18,10 +15,7 @@ const partecipanti = [
     foto: "logo erica.jpeg",
     nomeExtra: "LA TIFOSA",
     immagine: "erica.png",
-    descrizione: "Per qualsiasi ricorso sportivo e non ci trovate tra le Alpi e gli Appennini",
-    rosa: [
-        "portiere"
-    ]
+    descrizione: "Per qualsiasi ricorso sportivo e non ci trovate tra le Alpi e gli Appennini.",
 },
 
 {
@@ -30,10 +24,7 @@ const partecipanti = [
     foto: "logo santi.jpeg",
     nomeExtra: "IL TALENT SCOUT",
     immagine: "santi.jpeg",
-    descrizione: "Dateci del calcestruzzo e costruiremo il nostro futuro, senza ci proviamo lo stesso",
-    rosa: [
-        "portiere"
-    ]
+    descrizione: "Dateci del calcestruzzo e costruiremo il nostro futuro, senza ci proviamo lo stesso.",
 },
 
 {
@@ -42,10 +33,7 @@ const partecipanti = [
     foto: "logo alessandro.jpeg",
     nomeExtra: "L'ALZATORE",
     immagine: "alessandro.png",
-    descrizione: "Allenamenti personalizzati: <strong>Pala, sciamarru e corsetta alle 4 del mattino<strong>",
-    rosa: [
-        "portiere"
-    ]
+    descrizione: "Allenamenti personalizzati: <strong>Pala, sciamarru e corsetta alle 4 del mattino<strong>.",
 },
 
 {
@@ -54,10 +42,7 @@ const partecipanti = [
     foto: "logo santino.jpeg",
     nomeExtra: "IL PIANGINA",
     immagine: "santino.png",
-    descrizione: "Vivaio, giovani promesse, talenti da scoprire...in poche parole <strong>CBCR<strong>",
-    rosa: [
-        "portiere"
-    ]
+    descrizione: "Vivaio, giovani promesse, talenti da scoprire...in poche parole <strong>CBCR<strong>.",
 },
 
 {
@@ -66,10 +51,7 @@ const partecipanti = [
     foto: "logo piero.jpeg",
     nomeExtra: "IL PROFESSORE",
     immagine: "piero.png",
-    descrizione: "You'll never PUZZ alone, vi conviene starci lontani",
-    rosa: [
-        "portiere"
-    ]
+    descrizione: "You'll never PUZZ alone, vi conviene starci lontani.",
 },
 
 {
@@ -78,10 +60,7 @@ const partecipanti = [
     foto: "logo antonio.jpeg",
     nomeExtra: "IL VISIONARIO",
     immagine: "antonio.png",
-    descrizione: "Una storia con radici nel passato e con cassetto pieno zeppo di sogni.<br><strong>Sognare è sempre stato un nostro diritto<strong>",
-    rosa: [
-        "portiere"
-    ]
+    descrizione: "Una storia con radici nel passato e con cassetto pieno zeppo di sogni.<br><strong>Sognare è sempre stato un nostro diritto<strong>.",
 },
 
 {
@@ -90,34 +69,25 @@ const partecipanti = [
     foto: "logo christian.jpeg",
     nomeExtra: "LO SFIGATO",
     immagine: "christian.png",
-    descrizione: "Chi non risica non rosica e la paura è un sentimento che appartiene ai deboli, gls",
-    rosa: [
-        "portiere"
-    ]
+    descrizione: "Chi non risica non rosica e la paura è un sentimento che appartiene ai deboli, gls.",
 },
 
 {
     nome: "Mario",
     squadra: "AC SCASSAPAGLIARA",
     foto: "logo mario.png",
-    nomeExtra: "-",
+    nomeExtra: "IL CAMPIONE",
     immagine: "mario.png",
-    descrizione: "-",
-    rosa: [
-        "portiere"
-    ]
+    descrizione: "Tutti hanno paura di noi ma soprattutto <strong>Saridduzzu<strong>.",
 },
 
 {
     nome: "Emanuela",
     squadra: "AC QUOTA ROSA",
     foto: "logo emanuela.png",
-    nomeExtra: "-",
+    nomeExtra: "L'ESORDIENTE",
     immagine: "emanuela.png",
-    descrizione: "Il calcio non è uno sport per femminucce ma per <strong>donne di un certo calibro<strong>",
-    rosa: [
-        "portiere"
-    ]
+    descrizione: "Il calcio non è uno sport per femminucce ma per <strong>donne di un certo calibro<strong>.",
 }
 
 ];
