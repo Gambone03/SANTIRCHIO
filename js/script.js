@@ -128,10 +128,6 @@ function apriScheda(index) {
 
     lista.innerHTML = "";
 
-    p.rosa.forEach(giocatore => {
-        lista.innerHTML += `<li>${giocatore}</li>`;
-    });
-
     scheda.style.display = "flex";
 
 }
