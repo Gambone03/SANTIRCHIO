@@ -152,7 +152,7 @@ function apriCoppa(coppa) {
 
     const immagineA = document.getElementById("gironeA");
     const immagineB = document.getElementById("gironeB");
-    const faseFinale = document.getElementById("faseFinale");
+    const tabellone = document.getElementById("tabellone");
 
 
     if (coppa === "coppa1") {
@@ -163,7 +163,7 @@ function apriCoppa(coppa) {
 
         immagineA.src = "img/coppe/coppa1-girone-a.png";
         immagineB.src = "img/coppe/coppa1-girone-b.png";
-        faseFinale.src = "img/coppe/tabellone.png";
+        tabellone.src = "img/coppe/tabellone.png";
     
     }
 
